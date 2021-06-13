@@ -13,7 +13,6 @@ void CALLBACK my_callback(HMIDIIN hMidiIn, UINT wMsg, DWORD dwInstance, DWORD dw
     midiOutShortMsg(hMidiOut, dwParam1);
 }
 
-//int WINAPI WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, _In_ LPSTR lpszCmdLine, _In_ int nCmdShow)
 int main(int argc, char** argv)
 {
     UINT numIn = midiInGetNumDevs();
